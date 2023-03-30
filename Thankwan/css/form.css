@@ -1,0 +1,51 @@
+
+.login-content{
+    background: 55rem no-repeat url('../img/shamiko.png');
+    background-size: 183px 226px;
+    height: 300px;
+}
+
+.login-content button{
+    background: #ff6740;
+    color: white;
+    display: block;
+    border: none;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    outline: solid 2px transparent;
+    line-height: 1.3333333;
+    margin-top: 20px;
+    padding: 6px 10px;
+}
+
+label, input{
+    display: block;
+    margin: .5rem auto;
+}
+
+input{
+    width: 50%;
+    padding: .5rem;
+}
+
+input{
+    margin: 10px 20px 10px 0px;
+    background: #3d414a;
+    border: none;
+    border-radius: 2px;
+    outline: solid 4px transparent;
+    color: white;
+    font-family: 'League Spartan', sans-serif !important;
+}
+
+input:focus{
+    outline: 2px solid #ff6740;
+}
+
+form{
+    margin: auto;
+    width: 75%;   
+    display: block;
+    margin-top: 0em;
+}
+

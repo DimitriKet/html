@@ -1,0 +1,17 @@
+header>nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+}
+
+header>nav>ul>li>a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    background-color: gray;
+    transition: all 1s;
+}

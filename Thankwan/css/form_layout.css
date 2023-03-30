@@ -1,0 +1,115 @@
+body{
+    background: calc(50% - 35vw) 8rem no-repeat url('../img/mikan.png'), #111111;
+    padding-top: 25px;
+}
+
+.page-tittle{
+    font-family: 'League Spartan', sans-serif !important;
+    color: white;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 24px;
+    margin: 1rem 0;
+    margin-top: 10px;
+}
+
+.layout-card{
+    position: relative;
+    background: #212328;
+    border-color: #ff6740;
+    border-radius: 4px;
+    border-top: 4px #ff6740 solid;
+    padding-top: 20px;
+}
+
+.layout-card{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 500px;
+    padding: 10px 20px 30px 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    padding: .5rem;
+}
+
+input{
+    background: #3d414a;
+    border: none;
+    border-radius: 2px;
+    outline: solid 4px transparent;
+    color: white;
+    font-family: 'League Spartan', sans-serif !important;
+    /* transition: outline 0.2s ease-out; */
+}
+
+input:focus{
+    /* border-radius: 2px;
+    border: 2px solid orange; */
+    outline: 2px solid #ff6740;
+}
+
+label{
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+    max-width: 100%;
+    line-height: 1.5rem;
+}
+
+form{
+    margin: auto;
+    width: 75%;   
+    display: block;
+    margin-top: 0em;
+}
+
+#select{
+    background-color: #3d414a;
+    border: 6px solid transparent;
+    width: 100%;
+    color: white;
+}
+
+#select:focus{
+    outline: 2px solid #ff6740;
+}
+
+#select>option{    
+    background-color: #3d414a;
+}
+
+.form-group>textarea{
+    min-width: 100%;
+    max-width: 100%;
+    color: white;
+    background-color: #3d414a;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-group>button{
+    background: #ff6740;
+    color: white;
+    display: block;
+    border: none;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    outline: solid 2px transparent;
+    line-height: 1.3333333;
+    padding: 6px 10px;
+    width: 100%;
+}
+
+.form-group>button:hover{
+    background-color: orange;
+}

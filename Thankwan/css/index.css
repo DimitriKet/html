@@ -1,0 +1,76 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.page-content{
+    padding: 10px 5px 5px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #212328;
+    position: relative;
+}
+
+.product-content{
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 25px ;
+    display: flex;
+}
+
+.banner img{
+    height: 270px;
+    width: 270px;
+    margin-top: 5px;
+}
+
+.banner div{
+    display: flex;
+    color: rgb(51, 92, 206);
+}
+
+.banner div{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* .price .price-1{
+    
+} */
+
+.price .price-2{
+    font-size: 15px;
+    color: rgb(196, 210, 223);
+    text-decoration: line-through;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+.description-content{
+    margin-left: 20px;
+}
+
+.description-content div{
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(51, 92, 206);
+}
+
+.description-content ul li{
+    color: #a8253b;
+    padding: 2px;
+}
+
+.description-content p{
+    font-size: 20px;
+    color: #a8253b;
+    margin: 0 0 0 0;
+    padding: 5px;
+
+}
